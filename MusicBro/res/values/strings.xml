@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicBro</string>
+    <string name="Album">Albums</string>
+    <string name="Weather">Brovironment</string>
+    <string name="Mood">Mood</string>
+    <string name="Rating">Rating</string>
+    <string name="NoPlayed">Play Count</string>
+    <string name="hello">Hello World, AndroidBuildingMusicPlayerActivity!</string>
+    <string name="menu">Menu</string>
+    <string name="NewSongs">Suggest Playlist</string>
+    <string name="Songs">Tracks</string>
+    <string name="Artist">Artists</string>
+    <string name="Intelligent">Intelligent Playlist</string>
+</resources>

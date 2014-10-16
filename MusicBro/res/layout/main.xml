@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ScrollView01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/brobg">
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:layout_centerVertical="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true">
+    <Button
+            android:id="@+id/Album"
+            android:text="@string/Album"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:drawableTop="@drawable/album"/>
+        <Button
+                android:id="@+id/Songs"
+                android:text="@string/Songs"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:drawableTop="@drawable/track"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true">
+        <Button
+                android:id="@+id/Artist"
+                android:text="@string/Artist"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:drawableTop="@drawable/artist"/>
+        <Button
+                android:id="@+id/NewSongs"
+                android:text="@string/NewSongs"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:drawableTop="@drawable/playlist"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true">
+        <Button
+                android:id="@+id/Rating"
+                android:text="@string/Rating"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:drawableTop="@drawable/rating"/>
+        <Button
+                android:id="@+id/NoPlayed"
+                android:text="@string/NoPlayed"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:drawableTop="@drawable/noplayed"/>
+    </LinearLayout>
+
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                     android:orientation="horizontal"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_centerVertical="true">
+           <Button
+                   android:id="@+id/Mood"
+                   android:text="@string/Mood"
+                   android:layout_height="match_parent"
+                   android:layout_width="wrap_content"
+                   android:drawableTop="@drawable/mood"/>
+           <Button
+                   android:id="@+id/Intelligent"
+                   android:text="@string/Intelligent"
+                   android:layout_height="match_parent"
+                   android:layout_width="wrap_content"
+                   android:drawableTop="@drawable/intel"/>
+       </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+

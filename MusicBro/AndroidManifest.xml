@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.AAAG.MusicBro"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8"/>
+    <uses-sdk android:targetSdkVersion="17"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/mb" android:debuggable="true">
+        <activity android:name=".SplashActivity"
+                android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"
+                  android:label="@string/app_name">  </activity>
+        <activity android:name=".Player.AndroidBuildingMusicPlayerActivity"></activity>
+        <activity android:name=".Player.PlayListActivity"
+                android:noHistory="true"></activity>
+        <activity android:name=".Player.SongList"
+                android:noHistory="true"></activity>
+        <activity android:name=".MoodActivity"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Player.WeatherActivity"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Player.CountActivity"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Player.RatingActivity"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Player.NewActivity"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Player.SongsActivity"
+                  android:noHistory="true"></activity>
+        <activity android:name=".GetAge"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Lyric"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Player.ArtistActivity"
+                  android:noHistory="true"></activity>
+    </application>
+</manifest>
